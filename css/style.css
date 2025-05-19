@@ -437,11 +437,34 @@ footer {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     transition: all 0.3s ease;
+    border: none;
 }
 
-.whatsapp-btn:hover {
+.whatsapp-btn:hover, .whatsapp-btn:focus {
     background-color: #128C7E;
     transform: scale(1.1);
+    color: white;
+}
+
+.whatsapp-dropdown {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    min-width: 180px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+}
+
+.whatsapp-dropdown .dropdown-item {
+    padding: 10px 15px;
+    transition: all 0.2s ease;
+}
+
+.whatsapp-dropdown .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #25D366;
 }
 
 /* Responsive Adjustments */
