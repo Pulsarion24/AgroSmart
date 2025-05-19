@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Pulsarion IT Solutions Limited</title>
+    <meta name="description" content="Explore Pulsarion IT Solutions' portfolio of successful projects including EduClear, AgriCool Link, and other digital solutions.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="Pulsarion IT Solutions" class="logo">
+                <span>Pulsarion</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="display-4">Our Portfolio</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Portfolio</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-8 text-center">
+                    <h2 class="section-title text-center">Featured Projects</h2>
+                    <p class="lead">Explore our successful solutions that have helped businesses and organizations transform their operations and services.</p>
+                </div>
+            </div>
+            
+            <!-- Portfolio Filter -->
+            <div class="row">
+                <div class="col-lg-12 text-center mb-4">
+                    <ul class="list-inline portfolio-filter">
+                        <li class="list-inline-item active" data-filter="all">All</li>
+                        <li class="list-inline-item" data-filter="education">Education</li>
+                        <li class="list-inline-item" data-filter="agriculture">Agriculture</li>
+                        <li class="list-inline-item" data-filter="healthcare">Healthcare</li>
+                        <li class="list-inline-item" data-filter="ecommerce">E-commerce</li>
+                        <li class="list-inline-item" data-filter="mobile">Mobile Apps</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Portfolio Items -->
+            <div class="row">
+                <!-- EduClear Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item education" data-aos="fade-up">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-1.jpg" alt="EduClear" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Education</span>
+                            <h3>EduClear</h3>
+                            <p>A comprehensive school management system that streamlines administrative processes, enhances communication between teachers, students, and parents, and improves overall educational efficiency.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Bootstrap</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal1">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- AgriCool Link Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item agriculture" data-aos="fade-up" data-aos-delay="100">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-2.jpg" alt="AgriCool Link" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Agriculture</span>
+                            <h3>AgriCool Link</h3>
+                            <p>A digital platform that connects farmers with markets, provides agricultural insights, weather forecasts, and facilitates knowledge sharing among farming communities.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Express</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- HealthTrack Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item healthcare" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-3.jpg" alt="HealthTrack" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Healthcare</span>
+                            <h3>HealthTrack</h3>
+                            <p>A patient management system for clinics and healthcare facilities that improves appointment scheduling, patient record management, and overall healthcare service delivery.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">Angular</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Material UI</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- ShopEasy Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item ecommerce" data-aos="fade-up" data-aos-delay="300">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-4.jpg" alt="ShopEasy" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">E-commerce</span>
+                            <h3>ShopEasy</h3>
+                            <p>A complete e-commerce solution for small to medium-sized retailers, featuring inventory management, payment processing, and customer relationship management.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">Laravel</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Vue.js</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal4">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TaskMaster Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item mobile" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-5.jpg" alt="TaskMaster" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Mobile App</span>
+                            <h3>TaskMaster</h3>
+                            <p>A productivity mobile application that helps users organize tasks, set reminders, and track progress on personal and professional projects.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Expo</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal5">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FinTrack Project -->
+                <div class="col-md-6 col-lg-4 mb-4 portfolio-item mobile" data-aos="fade-up" data-aos-delay="500">
+                    <div class="portfolio-card">
+                        <div class="portfolio-img">
+                            <img src="images/project-6.jpg" alt="FinTrack" class="img-fluid">
+                        </div>
+                        <div class="portfolio-content">
+                            <span class="portfolio-category">Mobile App</span>
+                            <h3>FinTrack</h3>
+                            <p>A financial management mobile application that helps users track expenses, set budgets, and gain insights into their spending habits through visual analytics.</p>
+                            <div class="technologies">
+                                <span class="tech-tag">Flutter</span>
+                                <span class="tech-tag">Dart</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">SQLite</span>
+                            </div>
+                            <a href="#" class="btn btn-outline-primary mt-3" data-bs-toggle="modal" data-bs-target="#projectModal6">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modals -->
+    <!-- EduClear Modal -->
+    <div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal1Label">EduClear - School Management System</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <img src="images/project-1.jpg" alt="EduClear" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Project Overview</h3>
+                            <p>EduClear is a comprehensive school management system designed to streamline administrative processes in educational institutions across Zambia.</p>
+                            
+                            <h4 class="mt-4">Challenge</h4>
+                            <p>Schools faced challenges with manual record-keeping, inefficient communication between stakeholders, and difficulty tracking student performance and administrative tasks.</p>
+                            
+                            <h4 class="mt-4">Solution</h4>
+                            <p>We developed a tailored school management system with modules for:</p>
+                            <ul>
+                                <li>Student information management</li>
+                                <li>Attendance tracking</li>
+                                <li>Grade management and reporting</li>
+                                <li>Fee management</li>
+                                <li>Parent-teacher communication</li>
+                                <li>Resource scheduling</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h4>Technologies Used</h4>
+                            <div class="technologies">
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">jQuery</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">AJAX</span>
+                                <span class="tech-tag">HTML5/CSS3</span>
+                            </div>
+                            
+                            <h4 class="mt-4">Results</h4>
+                            <p>Since implementation, schools using EduClear have reported:</p>
+                            <ul>
+                                <li>60% reduction in administrative workload</li>
+                                <li>Improved communication between teachers, students, and parents</li>
+                                <li>Enhanced data accuracy and security</li>
+                                <li>Better tracking of student performance and attendance</li>
+                                <li>Streamlined fee collection and financial management</li>
+                            </ul>
+                            
+                            <h4 class="mt-4">Client Testimonial</h4>
+                            <blockquote class="blockquote">
+                                <p>"EduClear has transformed how we manage our school. The system is intuitive, reliable, and has significantly improved our administrative efficiency."</p>
+                                <footer class="blockquote-footer">Sarah Mwanza, Principal, Lusaka International School</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AgriCool Link Modal -->
+    <div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="projectModal2Label">AgriCool Link - Agricultural Platform</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <img src="images/project-2.jpg" alt="AgriCool Link" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Project Overview</h3>
+                            <p>AgriCool Link is a digital platform designed to connect Zambian farmers with markets and provide them with valuable agricultural insights and resources.</p>
+                            
+                            <h4 class="mt-4">Challenge</h4>
+                            <p>Small and medium-scale farmers in Zambia faced challenges accessing markets, obtaining reliable agricultural information, and connecting with buyers for their produce.</p>
+                            
+                            <h4 class="mt-4">Solution</h4>
+                            <p>We developed a comprehensive platform featuring:</p>
+                            <ul>
+                                <li>Marketplace for buying and selling agricultural products</li>
+                                <li>Weather forecasting and alerts for farming regions</li>
+                                <li>Knowledge base with farming techniques and best practices</li>
+                                <li>Community forums for knowledge sharing</li>
+                                <li>Direct connection with agricultural extension officers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <h4>Technologies Used</h4>
+                            <div class="technologies">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Redux</span>
+                                <span class="tech-tag">Mapbox API</span>
+                                <span class="tech-tag">Weather API</span>
+                            </div>
+                            
+                            <h4 class="mt-4">Results</h4>
+                            <p>The platform has achieved significant impact:</p>
+                            <ul>
+                                <li>Connected over 5,000 farmers with markets and buyers</li>
+                                <li>Increased average farmer income by 30% through better market access</li>
+                                <li>Reduced post-harvest losses by 25% through timely market information</li>
+                                <li>Created a community of knowledge sharing among farming communities</li>
+                                <li>Improved agricultural practices through access to best practices and techniques</li>
+                            </ul>
+                            
+                            <h4 class="mt-4">Client Testimonial</h4>
+                            <blockquote class="blockquote">
+                                <p>"Working with Pulsarion on our agricultural platform was a game-changer. Their team understood our unique challenges and delivered a solution that has connected thousands of farmers with markets."</p>
+                                <footer class="blockquote-footer">John Chanda, CEO, AgriTech Zambia</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <section id="cta" class="bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mb-4">Ready to Build Your Next Project?</h2>
+                    <p class="lead mb-4">Let's work together to create innovative solutions that drive your business forward.</p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
+                        <a href="services.html" class="btn btn-outline-light btn-lg">Our Services</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="footer-heading">Pulsarion IT Solutions</h4>
+                    <p>Innovating the Future, One Solution at a Time.</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <a href="index.html" class="footer-link">Home</a>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="services.html" class="footer-link">Services</a>
+                    <a href="portfolio.html" class="footer-link">Portfolio</a>
+                    <a href="blog.html" class="footer-link">Blog</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="footer-heading">Contact Info</h4>
+                    <p><i class="fas fa-envelope me-2"></i> pulsarionitsolutions@gmail.com</p>
+                    <p><i class="fas fa-phone me-2"></i> +260 777 342 846</p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> Lusaka, Zambia</p>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <p>&copy; 2025 Pulsarion IT Solutions Limited. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/260777342846" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
